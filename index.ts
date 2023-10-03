@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import mongoose from 'mongoose'
 
-import router from './routes'
+import router from './src/routes'
 
 dotenv.config()
 
