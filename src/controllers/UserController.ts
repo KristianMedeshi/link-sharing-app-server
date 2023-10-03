@@ -23,8 +23,8 @@ const setJWTToken = (
   res.cookie('jwt', token, {
     httpOnly: true,
     maxAge: tokenExpiration,
-    sameSite: 'strict',
-    secure: true,
+    sameSite: 'none',
+    secure: false,
   })
 }
 
